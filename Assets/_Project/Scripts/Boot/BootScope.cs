@@ -13,6 +13,8 @@ namespace Project.Boot
       });
 
       builder.RegisterEntryPoint<BootProcess>();
+
+      DontDestroyOnLoad(gameObject);
     }
   }
 }

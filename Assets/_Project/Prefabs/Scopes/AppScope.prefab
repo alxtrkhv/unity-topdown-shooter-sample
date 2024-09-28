@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6135457517835936121}
   - component: {fileID: -498000591418981042}
+  - component: {fileID: 4157275722572778652}
   m_Layer: 0
   m_Name: AppScope
   m_TagString: Untagged
@@ -45,6 +46,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentReference:
-    TypeName: 
-  autoRun: 1
+    TypeName: Project.Boot.BootScope
+  autoRun: 0
   autoInjectGameObjects: []
+--- !u!114 &4157275722572778652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137619440211140957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d55ffb3b160047209ac016ffaf27f45d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _editorOnly: 1
+  _scopes:
+  - {fileID: 4891001686769722970, guid: cd182970a81fb44739f3fdedf5f88ca8, type: 3}
